@@ -1,0 +1,721 @@
+
+
+.home-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background-image: url("https://s3-alpha-sig.figma.com/img/78c6/4be4/afce2e87134c3658ab8a2a0c4ab5985c?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NRaLH~797fJ2SHYgRpA6wjMZ0Z-IaIk8OFU1uSH-TyMxb49gFaH7IDzqKHKTJEpBuBebfw52HYlT9judLReZIMDQdjaxxWy6pDdaGskwQ4b18zqDkZi9jn3lsc35Iwy5MAxibPYxye-nRBZGHrr4UCr9iO-NSE0vviLPxL5IrT3sUWNMEGKtKBSL2IIhSTVDSV0LK7DSN3vfH13v8Ol3K8SPsc8SMAMURHUx5IB7tn3ZHeT64zUWNb7F1Z~TQq78~Tme7jyjOlhxxTspd8RKXgGblTKIfBaKa25vdR~1i-r3rhS0CjZYvdKlKMuOi76vAzawcwbXzdmYQcfuZz8RWA__");
+  background-blend-mode:lighten ;
+  background-color:rgba(1,0,87,0.6);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+  .home-title {
+    color: #e3ff75;
+    font-weight: 900;
+    font-size: 29px;
+  }
+  .home-clock {
+    padding-top: 15px;
+    font-weight: 900;
+    font-size: 39px;
+    color: white;
+
+    &__timer{
+      display: flex;
+      font-size: 18px;
+      opacity: 70%;
+      font-weight: 300;
+      gap:100px;
+      margin-left: 30px;
+    }
+  }
+  .home-youtube {
+    display: flex;
+    padding-top: 15px;
+    color: red;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    h1{
+      padding-top: 2px;
+      color: red;
+    }
+    h1:hover{
+      color: white;
+      transition: all 0.45s ease;
+    }
+    &__icondiv{
+     display: flex;
+     margin-bottom: 15px;
+     padding-right: 20px;
+    
+    }
+    &__icon{
+      width: 25px;
+      height: 25px;
+      color: red;
+    }
+    &__icon:hover{
+      color: white;
+      transition: all 0.45s ease;
+    }
+  }
+  .home-small-tittle {
+    padding-top: 15px;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    padding-bottom: 30px;
+
+  }
+
+  .home-info {
+    padding-top: 15px;
+    color: rgba(255, 255, 255, 0.615);
+    opacity: 80%;
+    font-size: 16px;
+    display: flex;
+    margin-right: 8%;
+
+    &__locationdiv{
+      margin-left: 20px;
+    }
+
+    &__location{
+      margin-right: 20px;
+      width: 20px;
+      height: 20px;
+    }
+    &__time{
+      margin-right: 20px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .custom-padding {
+    padding-bottom: 30px;
+    margin-left: 37px;
+    padding-left: 50px;
+  }
+
+  button {
+    margin-bottom: 100px;
+    border: 2px solid white;
+    background-color: #ffffff52;
+    color: white;
+    font-size: 20px;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 600;
+    border-radius: 100px;
+    padding: 10px 130px;
+    cursor: pointer;
+    margin-right: 35px;
+  }
+  button:hover{
+    background-color: white;
+    color: #010057;
+    transition: all 0.5s ease;
+  }
+  .row-container {
+    position: absolute;
+    bottom: 0;
+    padding: 35px 0 35px 0;
+    display: flex;
+    justify-content: space-around; // or 'space-between' or 'center' depending on your layout preference
+    align-items: center;
+    color: white;
+    background-color: #010057d8;
+    width: 100%;
+  }
+  .row-container-element {
+    padding-right: 100px;
+  }
+}
+
+.home-about {
+  background-color: white;
+
+  
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 80px;
+  justify-content: center;
+
+  &__about{
+    color: #343379;
+    font-weight: 600;
+    font-size: 0.6rem;
+    width: 50%;
+    text-align: left;
+    margin-right: 15%;
+  }
+  &__Thinktech{
+    margin-bottom: 15px;
+    color: #010057;
+    font-size: 1.3rem;
+    width: 50%;
+    text-align: left;
+    margin-right: 15%;
+  }
+  &__paragraph{
+    font-size: 1rem;
+    opacity: 60%;
+    font-weight: 400;
+    width: 70%;
+    text-align: left;
+    padding-left: 10%;
+    margin-right: 15%;
+
+  }
+  &__more{
+    font-size: 1rem;
+    margin-top: 30px;
+    padding-top: 20px;
+    width: 83%;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+    margin-right: 20%;
+  }
+  &__moretext{
+    width: 280px;
+    padding-right: 30px;
+  }
+  &__arrow{
+    width: 35px;
+    height: 35px;
+    
+    color: black;
+  }
+  &__arrow svg{
+    cursor: pointer;
+  }
+  &__arrow:hover{
+    color: #e3ff75;
+    transition: all 0.45s ease;
+  }
+
+}
+.home-events{
+  
+  background-color: white;
+  
+  margin-left: 5%;
+  width: 100%;
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  min-height: 60vh;
+  text-align: center;
+  justify-content: center;
+
+  &__namesp{
+    font-family: "Epilogue", sans-serif;
+    color: #343379;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 20%;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 9px;
+    width: 50%;
+  }
+  &__namesh2text{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 900;
+    color: #CEEF49;
+    font-size: 28px;
+    width: 50%;
+  }
+  &__namesh2{
+    font-size: 28px;
+    font-weight: 900 ;
+    color: #010057CC;
+    margin: 5px;
+    margin: 25px 0;
+    width: 50%;
+  }
+  &__container{
+    display: flex;
+    gap: 25px;
+    padding-left: 30px;
+
+    
+  }
+  &__container__boxes{
+    justify-content: space-around;
+    height: 517px;
+    width: 35%;
+    background-image: url(events_box_background.jpg);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+  }
+  &__container__h2{
+    font-family: "Epilogue", sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 28px;
+    width: 48%;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-top: 25%;
+  }
+  &__container__text{
+    margin: 10px;
+    margin-top: 15px;
+    padding-top: 15px;
+    width: 75%;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    opacity: 70%;
+  }
+  &__container__boxes__location{
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    width: 330px;
+    font-size: 10px;
+    height: 30px;
+    color: white;
+  }
+  &__container__boxes__locationicon{
+  
+    height: 20px;
+    width: 20px;
+    opacity: 80%;
+  }
+  &__container__boxes__locationtext{
+    margin-left: 20px;
+    padding-top: 3px;
+    font-size: 14px;
+    align-items: center;
+    opacity: 70%;
+  }
+  &__container__boxes__time{
+    margin-left: 30px;
+    margin-top: 16px;
+    display: flex;
+    width: 290px; 
+    height: 30px;
+    color: white;
+  }
+  &__container__boxes__timeicon{
+    margin-right: 20px;
+    height: 20px;
+    width: 20px;
+    opacity: 85%;
+  }
+  
+  &__container__boxes__timetext{
+    opacity: 70%;
+    padding-top: 3px;
+    font-size: 14px;
+    align-items: center;
+    opacity: 70%;
+  }
+  &__container__boxes__about{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    color: #ffffff;
+
+    text-align: left;
+    height: 90px;     
+    align-content: center; 
+  }
+  &__container__boxes__seemore{
+    margin-top: 15px;
+    padding-top: 10px;
+    margin-right: 19%;
+    font-size: 14px;
+  }
+  &__container__boxes__arrow{ 
+    margin-top: 10%;
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 65px;
+    height: 65px;
+    padding-bottom: 20px;
+    cursor: pointer;
+  }
+  &__container__boxes__arrow:hover{
+    color: #CEEF49;
+    transition: all 0.45s ease;
+  }
+  
+}
+
+#model{
+  
+  
+  width: 680px;
+  height: 935px;
+  display: flex;
+  margin-left: 25%;
+  justify-content: center;
+  align-self: center;
+  border-radius: 20px;
+}
+
+
+.popup{
+  color: #010057;
+  max-width: 700px;
+
+  &__header{
+    display: flex;
+  }
+  &__headerclosebtn{
+    background: none;
+
+    cursor: pointer;
+  }
+ 
+
+  &__headerclose{
+    background: transparent;
+    border: none;
+    width: 20px;
+    height: 20px;
+  }
+  h2{
+    font-weight: 900;
+    font-size: 36px;
+
+  }
+  &__headerp{
+    opacity: 80%;
+
+  }
+  &__headerh2{
+    align-items: center;
+    margin: 30px;
+    margin-top: 7%;
+    width: 80%;
+    margin-left: 50px;
+  }
+
+  &__select{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  &__gender{
+    margin-right: 120px;
+  }
+
+
+  &__teacherandotherdiv{
+    display: flex;
+    margin-bottom: 15px;
+    gap: 70px;
+   
+  }
+  &__paragraph{
+    font-weight: 600;
+  
+  }
+  &__malediv{
+    margin-bottom: 18px;
+  }
+  &__male{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 2px;
+    margin-left: 15px;
+  }
+  &__female{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 2px;
+    margin-left: 15px;
+  }
+  
+  &__other{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+
+  }
+  &__teacher{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+  }
+  &__student{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+  }
+  &__registerbutton{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  &__malename{
+    font-size: 16px;
+  }
+}
+.popup__headerclose{
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.formbutton{
+  width: 226px;
+  height: 52px;
+  background-color: #010057;
+  border-radius: 50px;
+  color: #ffffff;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.formbutton:hover{
+  color:#CEEF49;
+  background: #787878;
+}
+
+
+input[type="checkbox"]{
+
+  margin-right: 15px;
+  appearance: none;
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 15px;
+  border: 2px solid #010057;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+input[type="checkbox"]:after{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding-top: 1px;
+}
+input[type="checkbox"]:hover{
+  background-color: #010057;
+  color: white;
+}
+
+input[type="checkbox"]:checked{
+  background-color: #010057;
+  color: white;
+}
+
+.form{
+  &__nameandsurname{
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+
+  }
+  &__label{
+    font-weight: 600;
+    
+  }
+  &__input{
+    margin-top: 15px;
+    width: 225px;
+    height: 52px;
+    background-color:#F8F8F8;
+    text-align: center;
+    border-radius: 100px;
+    border: 0;
+  }
+  &__email{
+    margin-top: 23px;
+    margin-left: 50px;
+  }
+  
+  &__inputemail{
+    margin-top: 15px;
+    width: 490px;
+    height: 52px;
+    background-color:#F8F8F8;
+    text-align:center;
+    border-radius: 100px;
+    border: 0;
+  }
+  &__phonenumber{
+    margin-top: 23px;
+    margin-left: 50px;
+
+  }
+  &__inputnumber{
+    margin-top: 15px;
+    width: 490px;
+    height: 52px;
+    background-color:#F8F8F8;
+    text-align:center;
+    border-radius: 100px;
+    border: 0;
+  }
+}
+
+
+
+.home-partnersbox{
+  height: 100vh;
+  
+}
+.partners{
+  display: flex;
+  height: 130px;
+  width: 100%;
+
+ 
+  
+  &__p{
+    width: 14%;
+    margin-top: 30px;
+    padding-top: 30px;
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 300;
+    text-align: center;
+    padding-left: 30px;
+    margin-left: 3%;
+    
+    
+  }
+  &__logo{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin-right: 2%;
+    padding-right: 5%;
+  }
+  
+  
+}
+
+.footer{
+  display: flex;
+  padding-top: 5%;
+  padding-left: 2%;
+  
+  background-color: #ffffff;
+  min-height: 32vh;
+}
+
+.footer-links{
+  width: 230px;
+  line-height: 2.5;
+  margin-left: 12%;
+  margin-right: 8%;
+
+
+  &__about{
+    color: black;
+    font-weight: 500;
+  }
+  &__about:hover{
+    color: #CEEF49;
+    transition: all 0.45s ease;
+  }
+  &__copyright{
+    margin-top: 20%;
+    padding-top: 10%;
+    font-weight: 500;
+    color: black;
+    font-size: 15px;
+    padding-right: 10px;
+  }
+
+  
+
+}
+
+.footer-organizer{
+  margin-top: 10px;
+  width: 30%;
+  margin-right: 10%;
+
+  h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  &__landmarklogo{
+    margin-right: 20px;
+    
+  }
+  &__moveologo{
+    margin-left: 25px;
+    
+  }
+
+  &__paragraphdiv{
+    margin-top: 20px;
+  }
+  &__paragraph{
+    color: black;
+
+  }
+
+  &__mail{
+    margin-top: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  &__mail:hover{
+    color: #010057;
+    font-weight: 600;
+    transition: all 0.45s ease;
+    
+  }
+}
+
+.footer-socialicons{
+    &__facebook{
+      margin-right: 20px;
+      cursor: pointer;
+    }
+    &__youtube{
+      margin-right: 20px;
+    }
+    &__Landmark{
+      width: 100%;
+      margin-top: 70%;
+      display: flex;
+      justify-content: end;
+    }
+}
+
+/* If you want to style the button to look more appealing, you could add: */

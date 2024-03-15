@@ -1,0 +1,248 @@
+.eventsPage{
+    background: #010057;
+    min-height: 100vh;
+}
+
+.think-tech-events{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 80px;
+
+    &__thinktech{
+        color: white;
+        margin-bottom: 10px;
+        font-weight: 1000;
+    }
+    &__timeandlocation{
+        display: flex;
+        color: white;
+        gap: 85px;
+        height: 50px;
+    }
+    &__location{
+        display: flex;
+        gap: 25px;
+        
+    }
+    &__locationicon{
+        width: 35px;
+        height: 35px;
+        opacity: 90%;
+    }
+    &__locationtext{
+        font-size: 15px;
+        opacity: 70%;
+        margin-top: 9px;
+    }
+
+    &__time{
+        display: flex;
+        gap: 25px;
+}
+    &__timeicon{
+        width: 30px;
+        height: 30px;
+        opacity: 90%;
+    }
+    &__timetext{
+        font-size: 15px;
+        opacity: 70%;
+        margin-top: 4px;
+    }
+    &__paragraphdiv{
+        margin-top: 20px;
+        line-height: 35px;
+        color: #ffffff;
+        font-weight: 400;
+        opacity: 85%;
+    }
+    &__paragraph{
+        line-height: 35px;
+    }
+    &__paragraphone{
+        margin-bottom: 23px;
+    }
+    &__paragraphtwo{
+        margin-bottom: 23px;
+    }
+    &__paragraphthree{
+        margin-bottom: 23px;
+    }
+    &__paragraphfour{
+        margin-bottom: 23px;
+    }
+    &__paragraphfive{
+        margin-bottom: 23px;
+
+    }
+    &__paragraphsix{
+        margin-bottom: 50px;
+    }
+    &__eventagenda{
+        color: #ffffff;
+        font-size: 34px;
+        font-weight: 900;
+        padding-left: 5px;
+        margin-bottom: 10px;
+    }
+    &__eventgathering{
+        font-size: 18px;
+        color: #ffffff;
+        padding-left: 5px;
+        margin-top: 12px;
+        margin-bottom: 2px;
+    }
+    &__eventstart{
+        font-size: 18px;
+        color: #ffffff;
+        padding-left: 5px;
+        margin-top: 2px;
+        margin-bottom: 55px;
+    }
+    &__sections{
+        display: flex;
+        gap: 250px;
+        padding-left: 5px;
+        margin-bottom: 40px;
+    }
+    &__sectionsheader{
+        color: #E3FF75;
+        margin-bottom: 15px;
+        font-weight: 900;
+        font-size: 28px;
+    }
+    &__sectionsparagraph{
+        color: #ffffff;
+        line-height: 1.6;
+        opacity: 80%;
+    }
+    &__keyspeakers{
+        font-size: 23px;
+        color: #00AEEF;
+        font-weight: 850;
+        margin-bottom: 50px;
+
+    }
+    &__speaker{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+        border-top: 1px solid rgba(255, 255, 255, 0.25);
+        height: 100px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    &__speakertext{
+        margin-top: 30px;
+        margin-left: 45px;
+        color: white;
+        opacity: 100%;
+        width: 53%;
+        text-align: left;
+        font-size: 16px;
+    }
+    span{
+        color:  #00AEEF;
+        font-weight: 850;
+    }
+}
+
+
+
+.footer1{
+    display: flex;
+    padding-top: 5%;
+    padding-left: 2%;
+    
+    background-color: #010057;
+    min-height: 32vh;
+  }
+  
+  .footer-links1{
+    width: 230px;
+    line-height: 2.5;
+    margin-left: 12%;
+    margin-right: 8%;
+  
+  
+    &__about1{
+      color: #fff;
+      font-weight: 500;
+    }
+    &__about1:hover{
+      color: #CEEF49;
+      transition: all 0.45s ease;
+    }
+    &__copyright1{
+      margin-top: 20%;
+      padding-top: 10%;
+      font-weight: 500;
+      color: #fff;
+      font-size: 15px;
+      padding-right: 10px;
+    }
+  
+    
+  
+  }
+  
+  .footer-organizer1{
+    margin-top: 10px;
+    width: 30%;
+    margin-right: 10%;
+  
+    h2{
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 15px;
+      color: #fff;
+    }
+    &__landmarklogo1{
+      margin-right: 20px;
+      
+    }
+    &__moveologo1{
+      margin-left: 25px;
+      
+    }
+  
+    &__paragraphdiv1{
+      margin-top: 20px;
+    }
+    &__paragraph1{
+      color: #fff;
+  
+    }
+  
+    &__mail1{
+      margin-top: 20px;
+      text-decoration: underline;
+      cursor: pointer;
+      color: #fff;
+    }
+    &__mail1:hover{
+      color: #CEEF49;
+      font-weight: 600;
+      transition: all 0.45s ease;
+      
+    }
+  }
+  
+  .footer-socialicons1{
+      &__facebook1{
+        margin-right: 20px;
+        cursor: pointer;
+      }
+      &__youtube1{
+        margin-right: 20px;
+      }
+      &__Landmark1{
+        width: 100%;
+        margin-top: 70%;
+        display: flex;
+        justify-content: end;
+        color: #fff;
+      }
+  }
+  
+
+    
+    

@@ -1,0 +1,140 @@
+.aboutPage {
+  background-color: white;
+
+  .think-tech-about {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 80px;
+
+
+    &__about{
+      color: #343379;
+      font-weight: 600;
+      font-size: 1.6rem;
+    }
+    &__title {
+      font-size: 3em;
+      color: #010057;
+      margin-bottom: 15px;
+      font-weight: 900;
+    }
+
+    &__paragraph {
+      font-size: 1em;
+      color: #666;
+      margin-bottom: 10px;
+      text-align: justify;
+      line-height: 1.5;
+    }
+    &__Erion{
+      font-size: 1.5rem;
+      font-weight: 700;
+      color:#010057;
+      ;
+    }
+
+    &__quote {
+      font-size: 0.9em;
+      color: #555;
+      font-style: italic;
+      text-align: left;
+      margin-top: 20px;
+    }
+  }
+}
+
+.footer2{
+  margin: 0 70px;
+
+  display: flex;
+  padding-top: 5%;
+  padding-left: 2%;
+  
+  background-color: #ffffff;
+  min-height: 32vh;
+}
+
+.footer-links{
+  width: 230px;
+  line-height: 2.5;
+  margin-left: 12%;
+  margin-right: 8%;
+
+
+  &__about{
+    color: black;
+    font-weight: 500;
+  }
+  &__about:hover{
+    color: #CEEF49;
+    transition: all 0.45s ease;
+  }
+  &__copyright{
+    margin-top: 20%;
+    padding-top: 10%;
+    font-weight: 500;
+    color: black;
+    font-size: 15px;
+    padding-right: 10px;
+  }
+
+  
+
+}
+
+.footer-organizer{
+  margin-top: 10px;
+  width: 30%;
+  margin-right: 7%;
+
+  h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  &__landmarklogo{
+    margin-right: 20px;
+    
+  }
+  &__moveologo{
+    margin-left: 25px;
+    
+  }
+
+  &__paragraphdiv{
+    margin-top: 20px;
+  }
+  &__paragraph{
+    color: black;
+
+  }
+
+  &__mail{
+    margin-top: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  &__mail:hover{
+    color: #010057;
+    font-weight: 600;
+    transition: all 0.45s ease;
+    
+  }
+}
+
+.footer-socialicons{
+  margin-right: 1%;
+    &__facebook{
+      margin-right: 20px;
+      cursor: pointer;
+    }
+    &__youtube{
+      margin-right: 20px;
+    }
+    &__Landmark{
+      width: 100%;
+      margin-top: 70%;
+      display: flex;
+      justify-content: end;
+    }
+}
