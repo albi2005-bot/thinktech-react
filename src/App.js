@@ -45,10 +45,7 @@ const Navigation = () => {
           <Link className="nav-link" to="/about" onClick={closeMobileNav}>
             About
           </Link>
-          <Link className="nav-link" to="/" onClick={() => {
-              
-              closeMobileNav();
-            }}>
+          <Link className="nav-link" to="/"  onClick={scrollToPartners}>
             Partners
           </Link>
           <Link className="nav-link" to="/events">
